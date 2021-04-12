@@ -10,25 +10,14 @@ public class Model {
 	
 	static List<Ponto> pontos = new ArrayList<>();
 	{
-            int i = 4;
-            
-            if(i == 4){
+           
                 pontos.add(new Ponto(250, 250));
 		pontos.add(new Ponto(350, 250));
 		pontos.add(new Ponto(350, 350));
 		pontos.add(new Ponto(250, 350));
-            }
-            if(i == 6){
-            
-            for(int x = 0;x<6;x++){
-                pontos.add(new Ponto(250, 250));
-                for(int o = 0;o<6;o++){
-                    pontos.add(new Ponto(350, 250));
-                }
-            }
-            
-            
-            }
+                pontos.add(new Ponto(-250, -350));
+  
+  
             
 
 	};
